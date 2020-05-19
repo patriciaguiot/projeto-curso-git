@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PATRICIA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-17 02:15:05 "/>
+        <attribute name="created" value="UEFUUklDSUE7QVNST0NLOzIwMjAtMDUtMTc7IjAyOjA3OjMzICI7MjIyNw=="/>
+        <attribute name="edited" value="UEFUUklDSUE7QVNST0NLOzIwMjAtMDUtMTc7IjAyOjE1OjA1ICI7MTsyMzMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="JAN, FEV, MARCO, ABRIL, M&#201;DIA" type="Real" array="False" size=""/>
+            <input variable="JAN"/>
+            <input variable="FEV"/>
+            <input variable="MARCO"/>
+            <input variable="ABRIL"/>
+            <assign variable="M&#201;DIA" expression="(JAN+FEV+MARCO+ABRIL)/4"/>
+            <output expression="M&#201;DIA" newline="True"/>
+            <if expression="M&#201;DIA&gt;=5000">
+                <then>
+                    <output expression="&quot;VOC&#202; VAI GANHAR UM ABONO DE 10%!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;VOCE VAI GANHAR UM ABONO DE 5%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

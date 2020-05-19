@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PATRICIA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-17 11:28:21 "/>
+        <attribute name="created" value="UEFUUklDSUE7QVNST0NLOzIwMjAtMDUtMTc7IjExOjI0OjA3ICI7MjIyNw=="/>
+        <attribute name="edited" value="UEFUUklDSUE7QVNST0NLOzIwMjAtMDUtMTc7IjExOjI4OjIxICI7MTsyMzM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N&#218;MERO, LIMITE" type="Integer" array="False" size=""/>
+            <assign variable="N&#218;MERO" expression="1"/>
+            <assign variable="LIMITE" expression="10"/>
+            <while expression="N&#218;MERO &lt;= LIMITE">
+                <output expression="&quot;CONTAGEM ATUAL:  &quot; &amp; N&#218;MERO" newline="True"/>
+                <assign variable="N&#218;MERO" expression="N&#218;MERO + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
